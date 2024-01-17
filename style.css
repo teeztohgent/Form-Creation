@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  background-color: rgb(62, 62, 62);
+  padding: 100px;
+  border-radius: 5px;
+  color: white;
+  gap: 10px;
+}
+input,
+select {
+  padding: 10px;
+  border-radius: 20px;
+}
+button {
+  width: 40%;
+  background-color: #c4ce8f;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Container {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+.navBar {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+}
+.content1 {
+  display: flex;
+  background: white;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.text {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+}
+.text h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+.image {
+  width: 50%;
+  display: flex;
+  align-items: baseline;
+}
+.image img {
+  width: 100%;
+}
+.biography {
+  color: white;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.biography h1 {
+  font-size: 40px;
+}
+.biography p {
+  font-size: 18px;
+  text-align: justify;
+}
